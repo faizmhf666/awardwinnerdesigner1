@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "General Sans";
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#minicircle{
+    width:10px;
+    height:10px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 99999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+}
+#main{
+    width:100%;
+    background-color: black;
+}
+#hero{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    color:#fff;
+    position: relative;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    padding:20px 40px;
+    color:#fff;
+}
+#nav a{
+    color:#fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bounding{
+    width:fit-content;
+    overflow: hidden;
+}
+.bounding .boundingel{
+    transform: translateY(100%);
+}
+#heading{
+    margin-top:90px;
+}
+#heading h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "General Sans Medium";
+    line-height: 1;
+    opacity: 0.7;
+    margin-left: 30px;
+}
+#heading #secondh1{
+    margin-left: 230px;
+
+}
+.blocktext{
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.blocktext h5{
+    text-align: right !important;
+    text-transform: uppercase;
+    font-size:15px;
+}
+#smallheadings{
+    margin-top:100px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#smallheadings h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1vw;
+    text-align: right;
+}
+#herofooter{
+    width:100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+#herofooter a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+#herofooter #iconset{
+    display: flex;
+    gap:6px;
+}
+#herofooter .circle{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second{
+    width:100%;
+    padding-right: 10vw;
+    height: 100vh;
+    background-color: black;
+    padding-top: 200px;
+    color:#ffffff;
+}
+.elem{
+    width:100%;
+    border-top: 1px solid #888;
+    padding: 3.5vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 0;
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    color:#ffffff;
+    opacity:.7;
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    z-index:999;
+    position: absolute;
+    height: 100%;
+    display: none;
+}
+#about{
+    width:100%;
+    background-color:black;
+    padding:10vw 5vw;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    padding-left: 40vw;
+}
+#about img{
+    margin-top:100px;
+    height: 200px;
+}
+#textabout{
+    margin-top:100px;
+    width:80%;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity:0.6;
+    margin-bottom:10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom:30px;
+}
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+#subscribe{
+    background-color: black;
+    color:#ffffff;
+padding: 20px 30px;
+padding-bottom: 7vw;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity:0.6;
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 30px;
+    background-color: black;
+    color:#ffffff;
+}
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+#footerright{
+    display: flex;
+    gap: 20px;
+}
+#footer a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
